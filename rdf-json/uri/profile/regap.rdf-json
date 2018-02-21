@@ -1,35 +1,35 @@
 {
   "http://metadataregistry.org/uri/profile/regap/lexicalAlias": {
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/lexicalAlias.en"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/aAliasLexicales.fr"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/有词法别名.zh"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/profile/regap/"
       }
     ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "A subproperty of owl:sameAs designed to provide 'readable', language specific, equivalent URIs that can be resolved to a canonical opaque URI"
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/profile/regap/aAliasLexicales.fr"
       }, 
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/profile/regap/lexicalAlias.en"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/profile/regap/有词法别名.zh"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "fr", 
         "type": "literal", 
         "value": "Un sous-propriété de OWL:sameAs conçu pour fournir «lisible» , langue spécifique, URI équivalent qui peut être résolu à un opaque URI canonique"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "A subproperty of owl:sameAs designed to provide 'readable', language specific, equivalent URIs that can be resolved to a canonical opaque URI"
       }, 
       {
         "lang": "zh", 
@@ -39,14 +39,14 @@
     ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "lang": "fr", 
-        "type": "literal", 
-        "value": "a Alias Lexicales"
-      }, 
-      {
         "lang": "en", 
         "type": "literal", 
         "value": "Has Lexical Alias"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "a Alias Lexicales"
       }, 
       {
         "lang": "zh", 
@@ -74,6 +74,11 @@
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "aAliasLexicales"
+      }, 
+      {
         "lang": "zh", 
         "type": "literal", 
         "value": "有词法别名"
@@ -82,11 +87,6 @@
         "lang": "en", 
         "type": "literal", 
         "value": "lexicalAlias"
-      }, 
-      {
-        "lang": "fr", 
-        "type": "literal", 
-        "value": "aAliasLexicales"
       }
     ]
   }, 
@@ -106,24 +106,24 @@
     ]
   }, 
   "http://metadataregistry.org/uri/profile/regap/hasUnconstrained": {
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/已不受约束.zh"
-      }, 
+        "value": "http://metadataregistry.org/uri/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/profile/regap/hasUnconstrained.en"
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/aNonContraint.fr"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+        "value": "http://metadataregistry.org/uri/profile/regap/已不受约束.zh"
+      }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/"
+        "value": "http://metadataregistry.org/uri/profile/regap/aNonContraint.fr"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -134,14 +134,14 @@
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "lang": "fr", 
-        "type": "literal", 
-        "value": "Cette propriété est une propriété sous une autre propriété"
-      }, 
-      {
         "lang": "en", 
         "type": "literal", 
         "value": "This property is a subproperty of another property"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Cette propriété est une propriété sous une autre propriété"
       }, 
       {
         "lang": "zh", 
@@ -157,11 +157,6 @@
     ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Has Unconstrained"
-      }, 
-      {
         "lang": "zh", 
         "type": "literal", 
         "value": "已不受约束"
@@ -170,6 +165,11 @@
         "lang": "fr", 
         "type": "literal", 
         "value": "a Non Contraint"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Has Unconstrained"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -192,11 +192,6 @@
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "已不受约束"
-      }, 
-      {
         "lang": "fr", 
         "type": "literal", 
         "value": "aNonContraint"
@@ -205,6 +200,11 @@
         "lang": "en", 
         "type": "literal", 
         "value": "hasUnconstrained"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "已不受约束"
       }
     ]
   }, 
@@ -222,19 +222,14 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/URI.zh"
+        "value": "http://metadataregistry.org/uri/profile/regap/uri.en"
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/uri.en"
+        "value": "http://metadataregistry.org/uri/profile/regap/URI.zh"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "该OMR维持“本地”的URI ，以及规范“，发表了” URI。该元素包含标准URI ，它可随意改变。这将出现在生成的RDF为“ RDF ：关于”一个RDF属性：说明"
-      }, 
       {
         "lang": "en", 
         "type": "literal", 
@@ -244,12 +239,11 @@
         "lang": "fr", 
         "type": "literal", 
         "value": "L' OMR maintient un 'local' URI ainsi qu'un canonique , ' publié ' URI . Cet élément contient l'URI canonique , qui peut être modifiée à volonté. Cela apparaîtra dans généré RDF comme les « rdf:about » attribut d'un rdf:Description"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
+      }, 
       {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "该OMR维持“本地”的URI ，以及规范“，发表了” URI。该元素包含标准URI ，它可随意改变。这将出现在生成的RDF为“ RDF ：关于”一个RDF属性：说明"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -259,14 +253,20 @@
         "value": "Uri"
       }, 
       {
-        "lang": "fr", 
+        "lang": "zh", 
         "type": "literal", 
         "value": "URI"
       }, 
       {
-        "lang": "zh", 
+        "lang": "fr", 
         "type": "literal", 
         "value": "URI"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -277,14 +277,14 @@
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "URI"
-      }, 
-      {
         "lang": "en", 
         "type": "literal", 
         "value": "Uri"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "URI"
       }, 
       {
         "lang": "fr", 
@@ -305,11 +305,11 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/状态.zh"
+        "value": "http://metadataregistry.org/uri/profile/regap/Status.en"
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/Status.en"
+        "value": "http://metadataregistry.org/uri/profile/regap/状态.zh"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -326,9 +326,9 @@
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "lang": "zh", 
+        "lang": "en", 
         "type": "literal", 
-        "value": "资源在出版工作流程的状态"
+        "value": "The status of the resource in the publishing workflow"
       }, 
       {
         "lang": "fr-CA", 
@@ -336,9 +336,9 @@
         "value": "L' état ​​de la ressource dans le flux de publication"
       }, 
       {
-        "lang": "en", 
+        "lang": "zh", 
         "type": "literal", 
-        "value": "The status of the resource in the publishing workflow"
+        "value": "资源在出版工作流程的状态"
       }, 
       {
         "lang": "fr", 
@@ -346,18 +346,7 @@
         "value": "L' état ​​de la ressource dans le flux de publication"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "fr", 
-        "type": "literal", 
-        "value": "Condition"
-      }, 
       {
         "lang": "fr-CA", 
         "type": "literal", 
@@ -372,6 +361,17 @@
         "lang": "zh", 
         "type": "literal", 
         "value": "状态"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Condition"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -382,14 +382,14 @@
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "状态"
-      }, 
-      {
         "lang": "fr", 
         "type": "literal", 
         "value": "Condition"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "状态"
       }, 
       {
         "lang": "en", 
@@ -404,6 +404,12 @@
     ]
   }, 
   "http://metadataregistry.org/uri/profile/regap/registryUrl": {
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/profile/regap/"
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
@@ -411,20 +417,19 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/registryURL.en"
+        "value": "http://metadataregistry.org/uri/profile/regap/注册网址.zh"
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/注册网址.zh"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/"
+        "value": "http://metadataregistry.org/uri/profile/regap/registryURL.en"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Ceci est l'URL permanente de la page OMR représentant cette ressource. Par exemple, le 'reg:registryURL' de cet élément est http://metadataregistry.org/schemaprop/show/id/16520.html"
+      }, 
       {
         "lang": "zh", 
         "type": "literal", 
@@ -434,14 +439,20 @@
         "lang": "en", 
         "type": "literal", 
         "value": "This is the permanent URL of the OMR page representing this resource. For instance the 'reg:registryURL' of this element is http://metadataregistry.org/schemaprop/show/id/16520.html"
-      }, 
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
       {
-        "lang": "fr", 
-        "type": "literal", 
-        "value": "Ceci est l'URL permanente de la page OMR représentant cette ressource. Par exemple, le 'reg:registryURL' de cet élément est http://metadataregistry.org/schemaprop/show/id/16520.html"
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "注册网址"
+      }, 
       {
         "lang": "en", 
         "type": "literal", 
@@ -451,17 +462,6 @@
         "lang": "fr", 
         "type": "literal", 
         "value": "URL de Registre"
-      }, 
-      {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "注册网址"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -471,11 +471,6 @@
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
-      {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "注册网址"
-      }, 
       {
         "lang": "fr", 
         "type": "literal", 
@@ -485,14 +480,14 @@
         "lang": "en", 
         "type": "literal", 
         "value": "registryURL"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "注册网址"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "When we say 'permanent' we mean it. At some point the OMR URLs will become more restful and the Ids may change -- completely changing the URL. But the 'old' URLs will always be redirected with 301 redirects to the new locations."
-      }, 
       {
         "lang": "zh", 
         "type": "literal", 
@@ -502,28 +497,33 @@
         "lang": "fr", 
         "type": "literal", 
         "value": "Quand nous disons «permanent» , nous le pensons vraiment. À un certain point les URL OMR deviendront plus reposant et l'IDS peuvent changer - changer complètement l'URL . Mais les URLs «anciens» seront toujours dirigé avec 301 redirections vers les nouveaux emplacements ."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "When we say 'permanent' we mean it. At some point the OMR URLs will become more restful and the Ids may change -- completely changing the URL. But the 'old' URLs will always be redirected with 301 redirects to the new locations."
       }
     ]
   }, 
   "http://metadataregistry.org/uri/profile/regap/name": {
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/name.en"
-      }, 
+        "value": "http://metadataregistry.org/uri/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/profile/regap/名称.zh"
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/Nom.fr"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+        "value": "http://metadataregistry.org/uri/profile/regap/name.en"
+      }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/"
+        "value": "http://metadataregistry.org/uri/profile/regap/Nom.fr"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -533,37 +533,37 @@
         "value": "这是一个属性或类机器兼容标签"
       }, 
       {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "This is a machine-compatible label for a property or class"
-      }, 
-      {
         "lang": "fr", 
         "type": "literal", 
         "value": "Ceci est une étiquette compatible à la machine pour une propriété ou classe"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#label": [
+      }, 
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Name"
-      }, 
+        "value": "This is a machine-compatible label for a property or class"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "zh", 
         "type": "literal", 
         "value": "名称"
       }, 
       {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Name"
+      }, 
+      {
         "lang": "fr", 
         "type": "literal", 
         "value": "Nom"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -574,9 +574,9 @@
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
-        "lang": "zh", 
+        "lang": "fr", 
         "type": "literal", 
-        "value": "名称"
+        "value": "Nom"
       }, 
       {
         "lang": "en", 
@@ -584,31 +584,31 @@
         "value": "Name"
       }, 
       {
-        "lang": "fr", 
+        "lang": "zh", 
         "type": "literal", 
-        "value": "Nom"
+        "value": "名称"
       }
     ]
   }, 
   "http://metadataregistry.org/uri/profile/regap/hasSubproperty": {
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/有子属性.zh"
-      }, 
+        "value": "http://metadataregistry.org/uri/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/profile/regap/HasSubproperty.en"
       }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/aSousPropriété.fr"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+        "value": "http://metadataregistry.org/uri/profile/regap/有子属性.zh"
+      }, 
       {
         "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/"
+        "value": "http://metadataregistry.org/uri/profile/regap/aSousPropriété.fr"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -619,9 +619,9 @@
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "lang": "en", 
+        "lang": "fr", 
         "type": "literal", 
-        "value": "This Property has a subProperty"
+        "value": "Cette propriété possède une propriété sous"
       }, 
       {
         "lang": "zh", 
@@ -629,9 +629,9 @@
         "value": "这个属性有一个子属性"
       }, 
       {
-        "lang": "fr", 
+        "lang": "en", 
         "type": "literal", 
-        "value": "Cette propriété possède une propriété sous"
+        "value": "This Property has a subProperty"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
@@ -648,14 +648,14 @@
     ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "有子属性"
-      }, 
-      {
         "lang": "fr", 
         "type": "literal", 
         "value": "a Sous-Propriété"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "有子属性"
       }, 
       {
         "lang": "en", 
@@ -671,14 +671,14 @@
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
-        "lang": "zh", 
-        "type": "literal", 
-        "value": "有子属性"
-      }, 
-      {
         "lang": "en", 
         "type": "literal", 
         "value": "hasSubproperty"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "有子属性"
       }, 
       {
         "lang": "fr", 
@@ -688,17 +688,7 @@
     ]
   }, 
   "http://metadataregistry.org/uri/profile/regap/hasSubClass": {
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/profile/regap/hasSubClass.en"
-      }, 
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/profile/regap/aSousClasse.fr"
@@ -706,6 +696,16 @@
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/profile/regap/有子.zh"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/profile/regap/hasSubClass.en"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/profile/regap/"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -737,6 +737,12 @@
         "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"
       }
     ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "zh", 
@@ -752,12 +758,6 @@
         "lang": "en", 
         "type": "literal", 
         "value": "Has SubClass"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
