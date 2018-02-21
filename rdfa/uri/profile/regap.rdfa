@@ -6,156 +6,156 @@
     dc: http://purl.org/dc/elements/1.1/
     rdfs: http://www.w3.org/2000/01/rdf-schema#"
   >
-  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/hasUnconstrained">
-    <div property="reg:name" xml:lang="fr" content="aNonContraint"></div>
-    <div property="reg:name" xml:lang="en" content="hasUnconstrained"></div>
-    <div property="skos:definition" xml:lang="en" content="This property is a subproperty of another property"></div>
-    <div property="reg:name" xml:lang="zh" content="已不受约束"></div>
-    <div rel="rdfs:range" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/已不受约束.zh"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aNonContraint.fr"></div>
-    <div property="rdfs:label" xml:lang="zh" content="已不受约束"></div>
-    <div property="skos:definition" xml:lang="zh" content="此属性是其他属性的子属性"></div>
-    <div property="rdfs:label" xml:lang="fr" content="a Non Contraint"></div>
-    <div rel="reg:status">
-      <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1001">
-        <div property="skos:prefLabel" xml:lang="en" content="Published"></div>
-      </div>
-    </div>
-    <div property="skos:definition" xml:lang="fr" content="Cette propriété est une propriété sous une autre propriété"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/hasUnconstrained.en"></div>
-    <div property="rdfs:label" xml:lang="en" content="Has Unconstrained"></div>
+  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/lexicalAlias">
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/lexicalAlias.en"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/有词法别名.zh"></div>
+    <div property="skos:definition" xml:lang="zh" content="猫头鹰的子属性： sameAs的设计，提供'读'，具体的语言，折合​​的URI可以解析为一个规范不透明的URI"></div>
+    <div property="rdfs:label" xml:lang="fr" content="a Alias Lexicales"></div>
     <div rel="rdfs:isDefinedBy">
       <div typeof="rdfs:Resource" about="http://metadataregistry.org/uri/profile/regap/">
         <div property="dc:title" xml:lang="en" content="Open Metadata Registry Application Profile properties"></div>
       </div>
     </div>
-    <div rel="rdfs:domain" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"></div>
+    <div property="reg:name" xml:lang="en" content="lexicalAlias"></div>
+    <div property="reg:name" xml:lang="zh" content="有词法别名"></div>
+    <div property="rdfs:label" xml:lang="zh" content="有词法别名"></div>
+    <div property="skos:definition" xml:lang="fr" content="Un sous-propriété de OWL:sameAs conçu pour fournir «lisible» , langue spécifique, URI équivalent qui peut être résolu à un opaque URI canonique"></div>
+    <div property="rdfs:label" xml:lang="en" content="Has Lexical Alias"></div>
+    <div property="skos:definition" xml:lang="en" content="A subproperty of owl:sameAs designed to provide 'readable', language specific, equivalent URIs that can be resolved to a canonical opaque URI"></div>
+    <div rel="reg:status">
+      <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1001">
+        <div property="skos:prefLabel" xml:lang="en" content="Published"></div>
+      </div>
+    </div>
+    <div property="reg:name" xml:lang="fr" content="aAliasLexicales"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aAliasLexicales.fr"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://www.w3.org/2002/07/owl#sameAs"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/hasUnconstrained">
+    <div rel="rdfs:range" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"></div>
     <div rel="rdfs:subPropertyOf" resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"></div>
-  </div>
-  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/uri">
-    <div property="skos:definition" xml:lang="en" content="The OMR maintains a 'local' URI as well as a canonical, 'published' URI. This element contains the canonical URI, which can be changed at will. This will appear in generated RDF as the "rdf:about" attribute of an rdf:Description"></div>
-    <div property="reg:name" xml:lang="zh" content="URI"></div>
-    <div property="reg:name" xml:lang="en" content="Uri"></div>
-    <div property="rdfs:label" xml:lang="zh" content="URI"></div>
-    <div property="rdfs:label" xml:lang="en" content="Uri"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/uri.en"></div>
-    <div property="rdfs:label" xml:lang="fr" content="URI"></div>
-    <div property="skos:definition" xml:lang="zh" content="该OMR维持“本地”的URI ，以及规范“，发表了” URI。该元素包含标准URI ，它可随意改变。这将出现在生成的RDF为“ RDF ：关于”一个RDF属性：说明"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/URI.zh"></div>
-    <div property="reg:name" xml:lang="fr" content="URI"></div>
-    <div property="skos:definition" xml:lang="fr" content="L' OMR maintient un 'local' URI ainsi qu'un canonique , ' publié ' URI . Cet élément contient l'URI canonique , qui peut être modifiée à volonté. Cela apparaîtra dans généré RDF comme les « rdf:about » attribut d'un rdf:Description"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/已不受约束.zh"></div>
+    <div property="skos:definition" xml:lang="en" content="This property is a subproperty of another property"></div>
+    <div property="reg:name" xml:lang="en" content="hasUnconstrained"></div>
+    <div rel="rdfs:domain" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"></div>
+    <div property="skos:definition" xml:lang="fr" content="Cette propriété est une propriété sous une autre propriété"></div>
     <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
+    <div property="reg:name" xml:lang="fr" content="aNonContraint"></div>
+    <div property="rdfs:label" xml:lang="fr" content="a Non Contraint"></div>
+    <div property="skos:definition" xml:lang="zh" content="此属性是其他属性的子属性"></div>
+    <div property="reg:name" xml:lang="zh" content="已不受约束"></div>
+    <div property="rdfs:label" xml:lang="en" content="Has Unconstrained"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aNonContraint.fr"></div>
+    <div property="rdfs:label" xml:lang="zh" content="已不受约束"></div>
     <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/URI.fr"></div>
-  </div>
-  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/registryUrl">
-    <div property="rdfs:comment" xml:lang="en" content="When we say 'permanent' we mean it. At some point the OMR URLs will become more restful and the Ids may change -- completely changing the URL. But the 'old' URLs will always be redirected with 301 redirects to the new locations."></div>
-    <div property="rdfs:comment" xml:lang="fr" content="Quand nous disons «permanent» , nous le pensons vraiment. À un certain point les URL OMR deviendront plus reposant et l'IDS peuvent changer - changer complètement l'URL . Mais les URLs «anciens» seront toujours dirigé avec 301 redirections vers les nouveaux emplacements ."></div>
-    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/registryURL.en"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/URLdeRegistre.fr"></div>
-    <div property="rdfs:comment" xml:lang="zh" content="当我们说'永久' ，我们是认真的。在一些点， OMR的URL会变得更加宁静和IDS可能改变 - 彻底改变的URL。但“老” URL会一直与301重定向到新的位置被重定向。"></div>
-    <div property="rdfs:label" xml:lang="fr" content="URL de Registre"></div>
-    <div property="reg:name" xml:lang="fr" content="URLdeRegistre"></div>
-    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
-    <div property="skos:definition" xml:lang="fr" content="Ceci est l'URL permanente de la page OMR représentant cette ressource. Par exemple, le 'reg:registryURL' de cet élément est http://metadataregistry.org/schemaprop/show/id/16520.html"></div>
-    <div property="reg:name" xml:lang="en" content="registryURL"></div>
-    <div property="rdfs:label" xml:lang="zh" content="注册网址"></div>
-    <div property="rdfs:label" xml:lang="en" content="Registry URL"></div>
-    <div property="skos:definition" xml:lang="en" content="This is the permanent URL of the OMR page representing this resource. For instance the 'reg:registryURL' of this element is http://metadataregistry.org/schemaprop/show/id/16520.html"></div>
-    <div property="skos:definition" xml:lang="zh" content="这是代表这个资源的OMR页面的URL永久。比如：此元素的“章registryURL '是http://metadataregistry.org/schemaprop/show/id/16520.html"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/注册网址.zh"></div>
-    <div property="reg:name" xml:lang="zh" content="注册网址"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/hasUnconstrained.en"></div>
   </div>
   <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/hasSubClass">
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aSousClasse.fr"></div>
-    <div property="reg:name" xml:lang="en" content="hasSubClass"></div>
-    <div rel="rdfs:domain" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"></div>
-    <div property="reg:name" xml:lang="zh" content="有子"></div>
-    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
-    <div property="skos:definition" xml:lang="fr" content="Cette classe a une sous-classe"></div>
-    <div rel="rdfs:range" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"></div>
-    <div property="skos:definition" xml:lang="en" content="This Class has a subClass"></div>
-    <div property="skos:definition" xml:lang="zh" content="这个类有一个子类"></div>
     <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div property="rdfs:label" xml:lang="zh" content="有子"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/有子.zh"></div>
-    <div property="rdfs:label" xml:lang="fr" content="a Sous-Classe"></div>
     <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/hasSubClass.en"></div>
+    <div rel="rdfs:range" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
+    <div property="reg:name" xml:lang="en" content="hasSubClass"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aSousClasse.fr"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/有子.zh"></div>
+    <div property="reg:name" xml:lang="zh" content="有子"></div>
+    <div property="skos:definition" xml:lang="zh" content="这个类有一个子类"></div>
     <div property="rdfs:label" xml:lang="en" content="Has SubClass"></div>
+    <div property="rdfs:label" xml:lang="zh" content="有子"></div>
+    <div property="skos:definition" xml:lang="fr" content="Cette classe a une sous-classe"></div>
+    <div property="rdfs:label" xml:lang="fr" content="a Sous-Classe"></div>
+    <div rel="rdfs:domain" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"></div>
     <div property="reg:name" xml:lang="fr" content="aSousClasse"></div>
-  </div>
-  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/lexicalAlias">
-    <div property="skos:definition" xml:lang="zh" content="猫头鹰的子属性： sameAs的设计，提供'读'，具体的语言，折合​​的URI可以解析为一个规范不透明的URI"></div>
-    <div property="rdfs:label" xml:lang="fr" content="a Alias Lexicales"></div>
-    <div property="reg:name" xml:lang="zh" content="有词法别名"></div>
-    <div property="skos:definition" xml:lang="en" content="A subproperty of owl:sameAs designed to provide 'readable', language specific, equivalent URIs that can be resolved to a canonical opaque URI"></div>
-    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
-    <div rel="rdfs:subPropertyOf" resource="http://www.w3.org/2002/07/owl#sameAs"></div>
-    <div property="skos:definition" xml:lang="fr" content="Un sous-propriété de OWL:sameAs conçu pour fournir «lisible» , langue spécifique, URI équivalent qui peut être résolu à un opaque URI canonique"></div>
-    <div property="reg:name" xml:lang="en" content="lexicalAlias"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/有词法别名.zh"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/lexicalAlias.en"></div>
-    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aAliasLexicales.fr"></div>
-    <div property="reg:name" xml:lang="fr" content="aAliasLexicales"></div>
-    <div property="rdfs:label" xml:lang="zh" content="有词法别名"></div>
-    <div property="rdfs:label" xml:lang="en" content="Has Lexical Alias"></div>
-  </div>
-  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/name">
-    <div property="reg:name" xml:lang="fr" content="Nom"></div>
-    <div property="skos:definition" xml:lang="en" content="This is a machine-compatible label for a property or class"></div>
-    <div property="reg:name" xml:lang="en" content="Name"></div>
-    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
-    <div property="rdfs:label" xml:lang="en" content="Name"></div>
-    <div property="skos:definition" xml:lang="zh" content="这是一个属性或类机器兼容标签"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Nom.fr"></div>
-    <div property="rdfs:label" xml:lang="fr" content="Nom"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/名称.zh"></div>
-    <div property="skos:definition" xml:lang="fr" content="Ceci est une étiquette compatible à la machine pour une propriété ou classe"></div>
-    <div property="reg:name" xml:lang="zh" content="名称"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/name.en"></div>
-    <div property="rdfs:label" xml:lang="zh" content="名称"></div>
+    <div property="skos:definition" xml:lang="en" content="This Class has a subClass"></div>
   </div>
   <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/hasSubproperty">
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aSousPropriété.fr"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/HasSubproperty.en"></div>
-    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div property="rdfs:label" xml:lang="zh" content="有子属性"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/有子属性.zh"></div>
     <div property="rdfs:label" xml:lang="fr" content="a Sous-Propriété"></div>
     <div property="rdfs:label" xml:lang="en" content="Has Subproperty"></div>
+    <div property="skos:definition" xml:lang="fr" content="Cette propriété possède une propriété sous"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/有子属性.zh"></div>
     <div rel="rdfs:range" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"></div>
-    <div rel="rdfs:domain" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
     <div property="reg:name" xml:lang="zh" content="有子属性"></div>
     <div property="skos:definition" xml:lang="en" content="This Property has a subProperty"></div>
-    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
+    <div property="rdfs:label" xml:lang="zh" content="有子属性"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/HasSubproperty.en"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/aSousPropriété.fr"></div>
+    <div rel="rdfs:domain" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"></div>
     <div property="reg:name" xml:lang="fr" content="aSousPropriété"></div>
-    <div property="skos:definition" xml:lang="fr" content="Cette propriété possède une propriété sous"></div>
-    <div property="skos:definition" xml:lang="zh" content="这个属性有一个子属性"></div>
     <div property="reg:name" xml:lang="en" content="hasSubproperty"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="zh" content="这个属性有一个子属性"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/uri">
+    <div property="rdfs:label" xml:lang="en" content="Uri"></div>
+    <div property="skos:definition" xml:lang="fr" content="L' OMR maintient un 'local' URI ainsi qu'un canonique , ' publié ' URI . Cet élément contient l'URI canonique , qui peut être modifiée à volonté. Cela apparaîtra dans généré RDF comme les « rdf:about » attribut d'un rdf:Description"></div>
+    <div property="rdfs:label" xml:lang="fr" content="URI"></div>
+    <div property="reg:name" xml:lang="en" content="Uri"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
+    <div property="reg:name" xml:lang="fr" content="URI"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/URI.fr"></div>
+    <div property="rdfs:label" xml:lang="zh" content="URI"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/uri.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The OMR maintains a 'local' URI as well as a canonical, 'published' URI. This element contains the canonical URI, which can be changed at will. This will appear in generated RDF as the "rdf:about" attribute of an rdf:Description"></div>
+    <div property="skos:definition" xml:lang="zh" content="该OMR维持“本地”的URI ，以及规范“，发表了” URI。该元素包含标准URI ，它可随意改变。这将出现在生成的RDF为“ RDF ：关于”一个RDF属性：说明"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/URI.zh"></div>
+    <div property="reg:name" xml:lang="zh" content="URI"></div>
   </div>
   <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/status">
+    <div property="reg:name" xml:lang="fr" content="Condition"></div>
+    <div property="rdfs:label" xml:lang="en" content="Status"></div>
     <div property="skos:definition" xml:lang="en" content="The status of the resource in the publishing workflow"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Condition.fr-ca"></div>
     <div property="rdfs:label" xml:lang="fr-CA" content="Condition"></div>
-    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/状态.zh"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
     <div property="skos:definition" xml:lang="zh" content="资源在出版工作流程的状态"></div>
     <div property="rdfs:label" xml:lang="fr" content="Condition"></div>
-    <div property="reg:name" xml:lang="fr-CA" content="Condition"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Condition.fr-ca"></div>
-    <div rel="rdfs:range" resource="http://metadataregistry.org/uri/RegStatus/"></div>
-    <div property="skos:definition" xml:lang="fr-CA" content="L' état ​​de la ressource dans le flux de publication"></div>
-    <div property="rdfs:label" xml:lang="zh" content="状态"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Status.en"></div>
-    <div property="reg:name" xml:lang="fr" content="Condition"></div>
-    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Condition.fr"></div>
-    <div property="rdfs:label" xml:lang="en" content="Status"></div>
-    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
-    <div property="reg:name" xml:lang="en" content="Status"></div>
     <div property="reg:name" xml:lang="zh" content="状态"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/状态.zh"></div>
+    <div rel="rdfs:range" resource="http://metadataregistry.org/uri/RegStatus/"></div>
     <div property="skos:definition" xml:lang="fr" content="L' état ​​de la ressource dans le flux de publication"></div>
+    <div property="skos:definition" xml:lang="fr-CA" content="L' état ​​de la ressource dans le flux de publication"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Condition.fr"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Status.en"></div>
+    <div property="reg:name" xml:lang="en" content="Status"></div>
+    <div property="rdfs:label" xml:lang="zh" content="状态"></div>
+    <div property="reg:name" xml:lang="fr-CA" content="Condition"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/registryUrl">
+    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
+    <div property="reg:name" xml:lang="zh" content="注册网址"></div>
+    <div property="skos:definition" xml:lang="fr" content="Ceci est l'URL permanente de la page OMR représentant cette ressource. Par exemple, le 'reg:registryURL' de cet élément est http://metadataregistry.org/schemaprop/show/id/16520.html"></div>
+    <div property="rdfs:label" xml:lang="fr" content="URL de Registre"></div>
+    <div property="skos:definition" xml:lang="zh" content="这是代表这个资源的OMR页面的URL永久。比如：此元素的“章registryURL '是http://metadataregistry.org/schemaprop/show/id/16520.html"></div>
+    <div property="skos:definition" xml:lang="en" content="This is the permanent URL of the OMR page representing this resource. For instance the 'reg:registryURL' of this element is http://metadataregistry.org/schemaprop/show/id/16520.html"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="Registry URL"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/注册网址.zh"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/registryURL.en"></div>
+    <div property="rdfs:label" xml:lang="zh" content="注册网址"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/URLdeRegistre.fr"></div>
+    <div property="reg:name" xml:lang="fr" content="URLdeRegistre"></div>
+    <div property="reg:name" xml:lang="en" content="registryURL"></div>
+    <div property="rdfs:comment" xml:lang="en" content="When we say 'permanent' we mean it. At some point the OMR URLs will become more restful and the Ids may change -- completely changing the URL. But the 'old' URLs will always be redirected with 301 redirects to the new locations."></div>
+    <div property="rdfs:comment" xml:lang="fr" content="Quand nous disons «permanent» , nous le pensons vraiment. À un certain point les URL OMR deviendront plus reposant et l'IDS peuvent changer - changer complètement l'URL . Mais les URLs «anciens» seront toujours dirigé avec 301 redirections vers les nouveaux emplacements ."></div>
+    <div property="rdfs:comment" xml:lang="zh" content="当我们说'永久' ，我们是认真的。在一些点， OMR的URL会变得更加宁静和IDS可能改变 - 彻底改变的URL。但“老” URL会一直与301重定向到新的位置被重定向。"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://metadataregistry.org/uri/profile/regap/name">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="fr" content="Nom"></div>
+    <div property="reg:name" xml:lang="en" content="Name"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/名称.zh"></div>
+    <div property="rdfs:label" xml:lang="zh" content="名称"></div>
+    <div property="skos:definition" xml:lang="en" content="This is a machine-compatible label for a property or class"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/name.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="Name"></div>
+    <div property="reg:name" xml:lang="fr" content="Nom"></div>
+    <div property="reg:name" xml:lang="zh" content="名称"></div>
+    <div property="skos:definition" xml:lang="zh" content="这是一个属性或类机器兼容标签"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://metadataregistry.org/uri/profile/regap/"></div>
+    <div property="skos:definition" xml:lang="fr" content="Ceci est une étiquette compatible à la machine pour une propriété ou classe"></div>
+    <div rel="reg:lexicalAlias" resource="http://metadataregistry.org/uri/profile/regap/Nom.fr"></div>
   </div>
 </div>
