@@ -200,10 +200,11 @@
     ]
   }, 
   "http://metadataregistry.org/uri/RegStatus/1002": {
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus"
+        "lang": "en", 
+        "type": "literal", 
+        "value": "New-Proposed"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -212,11 +213,10 @@
         "value": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ], 
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "New-Proposed"
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [

@@ -1,150 +1,150 @@
 <div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/status" itemscope>
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="资源在出版工作流程的状态" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Status" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Status" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Condition" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="The status of the resource in the publishing workflow" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/Status.en" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/Condition.fr" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Condition" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="L' état ​​de la ressource dans le flux de publication" />
-    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
-      <meta itemprop="prefLabel" content="Published" />
-    </div>
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://metadataregistry.org/uri/RegStatus/" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="L' état ​​de la ressource dans le flux de publication" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/状态.zh" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Condition" />
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/name" itemscope>
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This is a machine-compatible label for a property or class" />
     <div itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" itemid="http://metadataregistry.org/uri/profile/regap/" itemscope>
       <meta itemprop="http://purl.org/dc/elements/1.1/title" content="Open Metadata Registry Application Profile properties" />
     </div>
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="状态" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="状态" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/Condition.fr-ca" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Condition" />
-  </div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/hasSubClass" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/hasSubClass.en" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aSousClasse.fr" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="有子" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This Class has a subClass" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/有子.zh" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aSousClasse" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="有子" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Cette classe a une sous-classe" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasSubClass" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Sous-Classe" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has SubClass" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="这个类有一个子类" />
-  </div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/registryUrl" itemscope>
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="这是代表这个资源的OMR页面的URL永久。比如：此元素的“章registryURL '是http://metadataregistry.org/schemaprop/show/id/16520.html" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="注册网址" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/注册网址.zh" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="注册网址" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="Quand nous disons «permanent» , nous le pensons vraiment. À un certain point les URL OMR deviendront plus reposant et l'IDS peuvent changer - changer complètement l'URL . Mais les URLs «anciens» seront toujours dirigé avec 301 redirections vers les nouveaux emplacements ." />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="当我们说'永久' ，我们是认真的。在一些点， OMR的URL会变得更加宁静和IDS可能改变 - 彻底改变的URL。但“老” URL会一直与301重定向到新的位置被重定向。" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Ceci est l'URL permanente de la page OMR représentant cette ressource. Par exemple, le 'reg:registryURL' de cet élément est http://metadataregistry.org/schemaprop/show/id/16520.html" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/registryURL.en" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="URL de Registre" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This is the permanent URL of the OMR page representing this resource. For instance the 'reg:registryURL' of this element is http://metadataregistry.org/schemaprop/show/id/16520.html" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/URLdeRegistre.fr" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="URLdeRegistre" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="registryURL" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="When we say 'permanent' we mean it. At some point the OMR URLs will become more restful and the Ids may change -- completely changing the URL. But the 'old' URLs will always be redirected with 301 redirects to the new locations." />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Registry URL" />
-  </div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/hasUnconstrained" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aNonContraint.fr" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Cette propriété est une propriété sous une autre propriété" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Non Contraint" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has Unconstrained" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This property is a subproperty of another property" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/已不受约束.zh" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aNonContraint" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/hasUnconstrained.en" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="已不受约束" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="此属性是其他属性的子属性" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#subPropertyOf" href="http://www.w3.org/2000/01/rdf-schema#subPropertyOf" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="已不受约束" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasUnconstrained" />
-  </div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/hasSubproperty" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/HasSubproperty.en" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="有子属性" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasSubproperty" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Sous-Propriété" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Cette propriété possède une propriété sous" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="这个属性有一个子属性" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/有子属性.zh" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This Property has a subProperty" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has Subproperty" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aSousPropriété.fr" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aSousPropriété" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="有子属性" />
-  </div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/name" itemscope>
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Ceci est une étiquette compatible à la machine pour une propriété ou classe" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Name" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This is a machine-compatible label for a property or class" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/name.en" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Nom" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/Nom.fr" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="名称" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="名称" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/名称.zh" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Nom" />
     <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Name" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Nom" />
     <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="这是一个属性或类机器兼容标签" />
-  </div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/uri" itemscope>
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Uri" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/URI.fr" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/URI.zh" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="URI" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/uri.en" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="URI" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="URI" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="L' OMR maintient un 'local' URI ainsi qu'un canonique , ' publié ' URI . Cet élément contient l'URI canonique , qui peut être modifiée à volonté. Cela apparaîtra dans généré RDF comme les « rdf:about » attribut d'un rdf:Description" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Uri" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="该OMR维持“本地”的URI ，以及规范“，发表了” URI。该元素包含标准URI ，它可随意改变。这将出现在生成的RDF为“ RDF ：关于”一个RDF属性：说明" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="URI" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="The OMR maintains a 'local' URI as well as a canonical, 'published' URI. This element contains the canonical URI, which can be changed at will. This will appear in generated RDF as the "rdf:about" attribute of an rdf:Description" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/名称.zh" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="名称" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="名称" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Ceci est une étiquette compatible à la machine pour une propriété ou classe" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/name.en" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Name" />
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Nom" />
   </div>
   <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/lexicalAlias" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aAliasLexicales.fr" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aAliasLexicales" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/有词法别名.zh" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="A subproperty of owl:sameAs designed to provide 'readable', language specific, equivalent URIs that can be resolved to a canonical opaque URI" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has Lexical Alias" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#subPropertyOf" href="http://www.w3.org/2002/07/owl#sameAs" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="猫头鹰的子属性： sameAs的设计，提供'读'，具体的语言，折合​​的URI可以解析为一个规范不透明的URI" />
     <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="lexicalAlias" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="有词法别名" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Alias Lexicales" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has Lexical Alias" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aAliasLexicales.fr" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="有词法别名" />
     <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Un sous-propriété de OWL:sameAs conçu pour fournir «lisible» , langue spécifique, URI équivalent qui peut être résolu à un opaque URI canonique" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/lexicalAlias.en" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aAliasLexicales" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Alias Lexicales" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="有词法别名" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="有词法别名" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#subPropertyOf" href="http://www.w3.org/2002/07/owl#sameAs" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="A subproperty of owl:sameAs designed to provide 'readable', language specific, equivalent URIs that can be resolved to a canonical opaque URI" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="猫头鹰的子属性： sameAs的设计，提供'读'，具体的语言，折合​​的URI可以解析为一个规范不透明的URI" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/hasUnconstrained" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has Unconstrained" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Cette propriété est une propriété sous une autre propriété" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/hasUnconstrained.en" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This property is a subproperty of another property" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/已不受约束.zh" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="已不受约束" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#subPropertyOf" href="http://www.w3.org/2000/01/rdf-schema#subPropertyOf" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasUnconstrained" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="已不受约束" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="此属性是其他属性的子属性" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aNonContraint" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Non Contraint" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aNonContraint.fr" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/hasSubClass" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aSousClasse" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="这个类有一个子类" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/hasSubClass.en" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="有子" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Cette classe a une sous-classe" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has SubClass" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aSousClasse.fr" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This Class has a subClass" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Sous-Classe" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasSubClass" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/有子.zh" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="有子" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/status" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://metadataregistry.org/uri/RegStatus/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Condition" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Condition" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/Condition.fr" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Status" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Condition" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Status" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/Condition.fr-ca" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/状态.zh" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="资源在出版工作流程的状态" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/Status.en" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="L' état ​​de la ressource dans le flux de publication" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Condition" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="L' état ​​de la ressource dans le flux de publication" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="状态" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="状态" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="The status of the resource in the publishing workflow" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/registryUrl" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/URLdeRegistre.fr" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/registryURL.en" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/注册网址.zh" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="URLdeRegistre" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This is the permanent URL of the OMR page representing this resource. For instance the 'reg:registryURL' of this element is http://metadataregistry.org/schemaprop/show/id/16520.html" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="当我们说'永久' ，我们是认真的。在一些点， OMR的URL会变得更加宁静和IDS可能改变 - 彻底改变的URL。但“老” URL会一直与301重定向到新的位置被重定向。" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="When we say 'permanent' we mean it. At some point the OMR URLs will become more restful and the Ids may change -- completely changing the URL. But the 'old' URLs will always be redirected with 301 redirects to the new locations." />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="registryURL" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="注册网址" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Ceci est l'URL permanente de la page OMR représentant cette ressource. Par exemple, le 'reg:registryURL' de cet élément est http://metadataregistry.org/schemaprop/show/id/16520.html" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="URL de Registre" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Registry URL" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="Quand nous disons «permanent» , nous le pensons vraiment. À un certain point les URL OMR deviendront plus reposant et l'IDS peuvent changer - changer complètement l'URL . Mais les URLs «anciens» seront toujours dirigé avec 301 redirections vers les nouveaux emplacements ." />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="这是代表这个资源的OMR页面的URL永久。比如：此元素的“章registryURL '是http://metadataregistry.org/schemaprop/show/id/16520.html" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="注册网址" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/hasSubproperty" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="a Sous-Propriété" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="有子属性" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasSubproperty" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/aSousPropriété.fr" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Has Subproperty" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="aSousPropriété" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="This Property has a subProperty" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="这个属性有一个子属性" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/HasSubproperty.en" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/有子属性.zh" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Cette propriété possède une propriété sous" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="有子属性" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://metadataregistry.org/uri/profile/regap/uri" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/uri.en" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="URI" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/URI.zh" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="URI" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="URI" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Uri" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="The OMR maintains a 'local' URI as well as a canonical, 'published' URI. This element contains the canonical URI, which can be changed at will. This will appear in generated RDF as the "rdf:about" attribute of an rdf:Description" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/lexicalAlias" href="http://metadataregistry.org/uri/profile/regap/URI.fr" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="URI" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://metadataregistry.org/uri/profile/regap/" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="L' OMR maintient un 'local' URI ainsi qu'un canonique , ' publié ' URI . Cet élément contient l'URI canonique , qui peut être modifiée à volonté. Cela apparaîtra dans généré RDF comme les « rdf:about » attribut d'un rdf:Description" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Uri" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="该OMR维持“本地”的URI ，以及规范“，发表了” URI。该元素包含标准URI ，它可随意改变。这将出现在生成的RDF为“ RDF ：关于”一个RDF属性：说明" />
   </div>
 </div>
