@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: Open Metadata Registry Status Vocabulary -->
+    <skos:ConceptScheme rdf:about="http://uri.metadataregistry.org/RegStatus">
+        <dc:title>Open Metadata Registry Status Vocabulary</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: Change-Proposed  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1003" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/414"/>
+      <skos:prefLabel xml:lang="en">Change-Proposed</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for published classes, properties and concepts that have been determined to need maintenance, and are expected to follow a review path to republication.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Change-Under Review  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1006" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/417"/>
+      <skos:prefLabel xml:lang="en">Change-Under Review</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for published classes, properties and concepts that have been determined to need maintenance, and have progressed to an active review stage.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Deprecate-Proposed  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1004" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/415"/>
+      <skos:prefLabel xml:lang="en">Deprecate-Proposed</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for published classes, properties and concepts that may no longer be useful, and are expected to follow a path to deprecation.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Deprecate-Under Review  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1007" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/418"/>
+      <skos:prefLabel xml:lang="en">Deprecate-Under Review</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for published classes, properties and concepts that have been determined to be no longer useful, and have progressed to an active review stage.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Deprecated  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1008" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/419"/>
+      <skos:prefLabel xml:lang="en">Deprecated</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for published classes, properties and concepts that have been been determined to be no longer useful, and are maintained within the vocabulary for reference and historical purposes. These classes, properties and concepts may still exist in data, but should not continue to be added to new metadata.</skos:definition>
+    </skos:Concept>
+<!-- Concept: New-Proposed  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1002" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/8028"/>
+      <skos:prefLabel xml:lang="en">New-Proposed</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: New-Under Review  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1005" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/416"/>
+      <skos:prefLabel xml:lang="en">New-Under Review</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for new classes, properties and concepts that have progressed to an active review stage.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Not Approved  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1009" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/420"/>
+      <skos:prefLabel xml:lang="en">Not Approved</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for proposed classes, properties and concepts that have been reviewed but not approved.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Published  -->
+    <skos:Concept rdf:about="http://uri.metadataregistry.org/RegStatus/1001" xml:lang="en">
+      <skos:inScheme rdf:resource="http://uri.metadataregistry.org/RegStatus"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/412"/>
+      <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+      <skos:definition xml:lang="en">The status for classes, properties and concepts that are determined to be in a final state. This status does not imply that there has been a review process.</skos:definition>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>
