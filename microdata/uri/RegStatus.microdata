@@ -1,65 +1,65 @@
 <div>
-  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1009" itemscope>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1002" itemscope>
     <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
-      <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/412" />
       <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-      <meta itemprop="prefLabel" content="Published" />
-      <meta itemprop="definition" content="The status for classes, properties and concepts that are determined to be in a final state. This status does not imply that there has been a review process." />
+      <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/412" />
       <div itemprop="inScheme" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://metadataregistry.org/uri/RegStatus" itemscope>
         <meta itemprop="http://purl.org/dc/elements/1.1/title" content="Open Metadata Registry Status Vocabulary" />
       </div>
+      <meta itemprop="prefLabel" content="Published" />
+      <meta itemprop="definition" content="The status for classes, properties and concepts that are determined to be in a final state. This status does not imply that there has been a review process." />
     </div>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/420" />
-    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
-    <meta itemprop="prefLabel" content="Not Approved" />
-    <meta itemprop="definition" content="The status for proposed classes, properties and concepts that have been reviewed but not approved." />
-  </div>
-  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1002" itemscope>
+    <meta itemprop="prefLabel" content="New-Proposed" />
     <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/8028" />
-    <meta itemprop="prefLabel" content="New-Proposed" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
   </div>
-  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1007" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/418" />
-    <meta itemprop="prefLabel" content="Deprecate-Under Review" />
-    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been determined to be no longer useful, and have progressed to an active review stage." />
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1003" itemscope>
+    <meta itemprop="prefLabel" content="Change-Proposed" />
     <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-  </div>
-  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1006" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/417" />
-    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been determined to need maintenance, and have progressed to an active review stage." />
-    <meta itemprop="prefLabel" content="Change-Under Review" />
-  </div>
-  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1008" itemscope>
-    <meta itemprop="prefLabel" content="Deprecated" />
-    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been been determined to be no longer useful, and are maintained within the vocabulary for reference and historical purposes. These classes, properties and concepts may still exist in data, but should not continue to be added to new metadata." />
-    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/419" />
+    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been determined to need maintenance, and are expected to follow a review path to republication." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/414" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
   </div>
   <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1005" itemscope>
     <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
     <meta itemprop="definition" content="The status for new classes, properties and concepts that have progressed to an active review stage." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/416" />
     <meta itemprop="prefLabel" content="New-Under Review" />
     <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/416" />
-  </div>
-  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1003" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/414" />
-    <meta itemprop="prefLabel" content="Change-Proposed" />
-    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
-    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been determined to need maintenance, and are expected to follow a review path to republication." />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
   </div>
   <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1004" itemscope>
+    <meta itemprop="definition" content="The status for published classes, properties and concepts that may no longer be useful, and are expected to follow a path to deprecation." />
+    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
+    <meta itemprop="prefLabel" content="Deprecate-Proposed" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/415" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1007" itemscope>
     <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <meta itemprop="definition" content="The status for published classes, properties and concepts that may no longer be useful, and are expected to follow a path to deprecation." />
-    <meta itemprop="prefLabel" content="Deprecate-Proposed" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/418" />
+    <meta itemprop="prefLabel" content="Deprecate-Under Review" />
+    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been determined to be no longer useful, and have progressed to an active review stage." />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1008" itemscope>
+    <meta itemprop="prefLabel" content="Deprecated" />
+    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been been determined to be no longer useful, and are maintained within the vocabulary for reference and historical purposes. These classes, properties and concepts may still exist in data, but should not continue to be added to new metadata." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/419" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1006" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/417" />
+    <meta itemprop="prefLabel" content="Change-Under Review" />
+    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
+    <meta itemprop="definition" content="The status for published classes, properties and concepts that have been determined to need maintenance, and have progressed to an active review stage." />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1009" itemscope>
+    <meta itemprop="definition" content="The status for proposed classes, properties and concepts that have been reviewed but not approved." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="inScheme" href="http://metadataregistry.org/uri/RegStatus" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/420" />
+    <meta itemprop="prefLabel" content="Not Approved" />
   </div>
 </div>
