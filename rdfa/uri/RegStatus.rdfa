@@ -6,59 +6,59 @@
     dc: http://purl.org/dc/elements/1.1/
     rdfs: http://www.w3.org/2000/01/rdf-schema#"
   >
-  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1009">
+  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1003">
+    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/414"></div>
+    <div property="skos:prefLabel" xml:lang="en" content="Change-Proposed"></div>
+    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that have been determined to need maintenance, and are expected to follow a review path to republication."></div>
     <div rel="skos:inScheme">
       <div typeof="skos:ConceptScheme" about="http://metadataregistry.org/uri/RegStatus">
         <div property="dc:title" content="Open Metadata Registry Status Vocabulary"></div>
       </div>
     </div>
-    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/420"></div>
-    <div property="skos:definition" xml:lang="en" content="The status for proposed classes, properties and concepts that have been reviewed but not approved."></div>
-    <div property="skos:prefLabel" xml:lang="en" content="Not Approved"></div>
     <div rel="reg:status">
       <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1001">
         <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
-        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
         <div property="skos:definition" xml:lang="en" content="The status for classes, properties and concepts that are determined to be in a final state. This status does not imply that there has been a review process."></div>
         <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/412"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
         <div property="skos:prefLabel" xml:lang="en" content="Published"></div>
       </div>
     </div>
   </div>
-  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1005">
-    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/416"></div>
-    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
-    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div property="skos:prefLabel" xml:lang="en" content="New-Under Review"></div>
-    <div property="skos:definition" xml:lang="en" content="The status for new classes, properties and concepts that have progressed to an active review stage."></div>
-  </div>
   <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1006">
-    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/417"></div>
-    <div property="skos:prefLabel" xml:lang="en" content="Change-Under Review"></div>
     <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that have been determined to need maintenance, and have progressed to an active review stage."></div>
     <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
+    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/417"></div>
+    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that have been determined to need maintenance, and have progressed to an active review stage."></div>
+    <div property="skos:prefLabel" xml:lang="en" content="Change-Under Review"></div>
   </div>
   <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1008">
-    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that have been been determined to be no longer useful, and are maintained within the vocabulary for reference and historical purposes. These classes, properties and concepts may still exist in data, but should not continue to be added to new metadata."></div>
-    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div property="skos:prefLabel" xml:lang="en" content="Deprecated"></div>
+    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
     <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/419"></div>
-    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
-  </div>
-  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1004">
-    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/415"></div>
-    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
     <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
-    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that may no longer be useful, and are expected to follow a path to deprecation."></div>
-    <div property="skos:prefLabel" xml:lang="en" content="Deprecate-Proposed"></div>
+    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that have been been determined to be no longer useful, and are maintained within the vocabulary for reference and historical purposes. These classes, properties and concepts may still exist in data, but should not continue to be added to new metadata."></div>
+    <div property="skos:prefLabel" xml:lang="en" content="Deprecated"></div>
   </div>
   <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1007">
-    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
     <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
     <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that have been determined to be no longer useful, and have progressed to an active review stage."></div>
-    <div property="skos:prefLabel" xml:lang="en" content="Deprecate-Under Review"></div>
+    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
     <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/418"></div>
+    <div property="skos:prefLabel" xml:lang="en" content="Deprecate-Under Review"></div>
+  </div>
+  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1004">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/415"></div>
+    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that may no longer be useful, and are expected to follow a path to deprecation."></div>
+    <div property="skos:prefLabel" xml:lang="en" content="Deprecate-Proposed"></div>
+    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
+  </div>
+  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1005">
+    <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
+    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/416"></div>
+    <div property="skos:prefLabel" xml:lang="en" content="New-Under Review"></div>
+    <div property="skos:definition" xml:lang="en" content="The status for new classes, properties and concepts that have progressed to an active review stage."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
   </div>
   <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1002">
     <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
@@ -66,11 +66,11 @@
     <div property="skos:prefLabel" xml:lang="en" content="New-Proposed"></div>
     <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/8028"></div>
   </div>
-  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1003">
-    <div property="skos:prefLabel" xml:lang="en" content="Change-Proposed"></div>
-    <div property="skos:definition" xml:lang="en" content="The status for published classes, properties and concepts that have been determined to need maintenance, and are expected to follow a review path to republication."></div>
-    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/414"></div>
+  <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1009">
     <div rel="skos:inScheme" resource="http://metadataregistry.org/uri/RegStatus"></div>
     <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:identifier" resource="http://metadataregistry.org/concepts/420"></div>
+    <div property="skos:definition" xml:lang="en" content="The status for proposed classes, properties and concepts that have been reviewed but not approved."></div>
+    <div property="skos:prefLabel" xml:lang="en" content="Not Approved"></div>
   </div>
 </div>
