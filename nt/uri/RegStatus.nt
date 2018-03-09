@@ -1,0 +1,57 @@
+<http://metadataregistry.org/uri/RegStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://metadataregistry.org/uri/RegStatus> <http://purl.org/dc/elements/1.1/title> "Open Metadata Registry Status Vocabulary" .
+<http://metadataregistry.org/uri/RegStatus/1003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1003> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1003> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1003> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/414> .
+<http://metadataregistry.org/uri/RegStatus/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Change-Proposed"@en .
+<http://metadataregistry.org/uri/RegStatus/1003> <http://www.w3.org/2004/02/skos/core#definition> "The status for published classes, properties and concepts that have been determined to need maintenance, and are expected to follow a review path to republication."@en .
+<http://metadataregistry.org/uri/RegStatus/1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1006> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1006> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1006> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/417> .
+<http://metadataregistry.org/uri/RegStatus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Change-Under Review"@en .
+<http://metadataregistry.org/uri/RegStatus/1006> <http://www.w3.org/2004/02/skos/core#definition> "The status for published classes, properties and concepts that have been determined to need maintenance, and have progressed to an active review stage."@en .
+<http://metadataregistry.org/uri/RegStatus/1004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1004> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1004> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1004> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/415> .
+<http://metadataregistry.org/uri/RegStatus/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deprecate-Proposed"@en .
+<http://metadataregistry.org/uri/RegStatus/1004> <http://www.w3.org/2004/02/skos/core#definition> "The status for published classes, properties and concepts that may no longer be useful, and are expected to follow a path to deprecation."@en .
+<http://metadataregistry.org/uri/RegStatus/1007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1007> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1007> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1007> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/418> .
+<http://metadataregistry.org/uri/RegStatus/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deprecate-Under Review"@en .
+<http://metadataregistry.org/uri/RegStatus/1007> <http://www.w3.org/2004/02/skos/core#definition> "The status for published classes, properties and concepts that have been determined to be no longer useful, and have progressed to an active review stage."@en .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/419> .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deprecated"@en .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/2004/02/skos/core#definition> "The status for published classes, properties and concepts that have been been determined to be no longer useful, and are maintained within the vocabulary for reference and historical purposes. These classes, properties and concepts may still exist in data, but should not continue to be added to new metadata."@en .
+<http://metadataregistry.org/uri/RegStatus/1002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1002> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1002> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1002> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8028> .
+<http://metadataregistry.org/uri/RegStatus/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "New-Proposed"@en .
+<http://metadataregistry.org/uri/RegStatus/1005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1005> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1005> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1005> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/416> .
+<http://metadataregistry.org/uri/RegStatus/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "New-Under Review"@en .
+<http://metadataregistry.org/uri/RegStatus/1005> <http://www.w3.org/2004/02/skos/core#definition> "The status for new classes, properties and concepts that have progressed to an active review stage."@en .
+<http://metadataregistry.org/uri/RegStatus/1009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1009> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1009> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1009> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/420> .
+<http://metadataregistry.org/uri/RegStatus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Not Approved"@en .
+<http://metadataregistry.org/uri/RegStatus/1009> <http://www.w3.org/2004/02/skos/core#definition> "The status for proposed classes, properties and concepts that have been reviewed but not approved."@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#inScheme> <http://metadataregistry.org/uri/RegStatus> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/412> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#definition> "The status for classes, properties and concepts that are determined to be in a final state. This status does not imply that there has been a review process."@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .
